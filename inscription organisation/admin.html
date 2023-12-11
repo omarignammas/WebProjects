@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page d'Administration </title>
+    <style>
+    body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+button {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+h2{
+    text-align: center;
+    font-family: serif;
+    font-size: 2.1rem;
+}
+
+    </style>
+</head>
+<body>
+    <form action="admin.php" method="POST">
+    <div class="dashboard-container">
+        <h2>Les demandes d'organisation</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Email</th>
+                    <th>Organization Name</th>
+                    <th>Type</th>
+                    <th>Description</th>
+                    <th>nom responsable</th>
+                    <th>prenom responsable</th>
+                    <th>CIN responsable</th>
+                </tr>
+            </thead>
+            <tbody>
+              
+            </tbody>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
