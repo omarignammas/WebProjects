@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription Organisateur</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #95a5a6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 120vh;
+        }
+
+        form {
+            background-color: whitesmoke;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+            width: 400px;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin: 15px 0 5px;
+            text-align: left;
+            font-family: serif;
+            font-size: medium;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            background-color: #95a5a6;
+            color: #fff;
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: #657576;
+        }
+    </style>
+</head>
+<body>
+    <form action="demande_d'organisation.php" method="POST">
+        <h3 style="font-family: serif;font-weight: bolder;font-size: x-large;">DEMANDE D'ORGANISATION D'UN &Eacute;VENEMENT</h3>
+        <label for="email">Email :</label>
+        <input type="email" name="email" required placeholder="ex:courrier@uit.ac.ma">
+
+        <label for="nom_org">Nom de l'Organisation :</label>
+        <input type="text" name="nom_org" required placeholder="Entrer le nom de votre organisation">
+
+        <label for="type">Type d'Organisation :</label>
+        <input type="text" name="type" required placeholder="Entrer le type d'&eacute;venement organise&eacute;">
+
+        <label for="description">Description(Objectifs):</label>
+        <textarea style="width: 395px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);background-color: rgba(255, 255, 255, 0.5);" name="description" rows="4" required placeholder="Entrer une description d'&eacute;venement"></textarea>
+
+        <label for="nom_resp">Nom du Responsable :</label>
+        <input type="text" name="nom_resp" required placeholder="Entrer le nom responsable ">
+
+        <label for="prenom_resp">Prénom du Responsable :</label>
+        <input type="text" name="prenom_resp" required placeholder="Entrer le prenom responsable ">
+
+        <label for="cin_resp">CIN du Responsable :</label>
+        <input type="text" name="cin_resp" required placeholder="Entrer le CIN du responsable ">
+
+        <button style="font-family: serif;font-size: medium;" type="submit" name="submit" href="verification.html">Envoyer la demande</button>
+    </form>
+</body>
+</html>
