@@ -1,0 +1,198 @@
+body{
+    width: 100%;
+}
+nav{
+    color: gray;
+    margin-top: 4%;
+    margin-bottom: 2%;
+
+}
+#nom_boite{
+    color: #e5989b;
+    font-size: 20px;
+    width: 100px;
+    margin-left: 16%;
+
+}
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+nav a {
+    color: gray;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 10px 10px;
+}
+nav a:hover{
+    background-color: rgb(34, 34, 34);
+    color:#d5c3a0;
+    transition: 0.3s ease;
+}
+.banner{
+    position: relative;
+    background-image: url(/images/12.webp);
+    height: 620px;
+    width: 85%;
+    margin-right: 8%;
+    margin-left: 3%;
+}
+#slogant1{
+    position: absolute;
+    background-color: #e5989b13;
+    margin-top: 15%;
+    margin-left: 40%;
+    padding: 15px 15px;
+    font-family: 'Dancing Script', sans-serif;
+    color: #e3bb8e;
+    background-color: #5a513e;
+}
+#slogant2{
+    position: absolute;
+    background-color: #e5989b13;
+    margin-top: 24%;
+    margin-left: 50%;
+    padding: 15px 15px;
+    font-family: 'Dancing Script', sans-serif;
+    color: rgb(227, 187, 142);
+    background-color: #5a513e;
+}
+.titre1{
+    color:  rgb(227, 187, 142);
+    font-family: 'Dancing Script', sans-serif;
+    margin-left: 45%;
+    margin-top: 2%;
+}
+
+
+article{
+    color: rgba(51,51,51,0.75);
+    font-size: 20px;
+    position: relative;
+    margin-left: 10%;
+    display: inline-block;
+    text-align: justify;
+}
+#palmier{
+    position: absolute;
+    width: 250px;
+    margin-left: 95%;
+}
+aside{
+    background-color: #d5c3a0;
+    padding: 10px 10px;
+    height: 320px;
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-top: -20%;
+    margin-left: 65%;
+    padding: 20px;
+}
+.boutton_transparent{
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid whitesmoke;
+    padding: 8px 8px ;
+    background-color: none;
+}
+.boutton_transparent:hover{
+    color: #5a513e;
+    background-color: #cac0ab;
+    border: 1px solid #766b52;
+
+}
+.titre2{
+    color:  rgb(227, 187, 142);
+    font-family: 'Dancing Script', sans-serif;
+    text-align: center;
+    margin-top: 10%;
+}
+#why-us{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    color: gray;
+    font-size: 1 em;
+}
+#our-pack{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 17%;
+    color: gray;
+}
+
+.icones2{
+    width: 270px;
+    height: 260px;
+    margin-left: 8%;
+    margin-right: 45px;
+    border-radius: 35px;
+    transition: box-shadow 0.3s ease; 
+    border:1px solid #adb2c4;
+}
+.icones2:hover{
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.5);
+}
+#formulaire {
+    text-align: center;
+}
+input{
+    width: 400px;
+    color:#7a7a7a;
+    background-color: rgba(0, 0, 0, 0.03);
+    margin-bottom:10px ;
+    font-size: 15px;
+    padding: 8px 8px;
+    border: none;
+}
+textarea{
+    width: 416px;
+    color:#7a7a7a;
+    background-color: rgba(0, 0, 0, 0.03);
+    margin-bottom:10px ;
+    font-size: 15px;
+    height: 30px;
+    border: none;
+}
+.boutton_contact{
+    background-color: rgb(34, 34, 34);
+    color:#d5c3a0;
+    padding: 10px 10px;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: rgb(34, 34, 34);
+    height: 400px;
+    display: flex;
+}
+#footer-left{
+    border: 1px solid gray ;
+    margin-left: 10%;
+    border: 1px solid #c7b186;
+    padding-left: 14%;
+    padding-right: 14%;
+    height: 47%;
+    margin-top: 5%;
+    text-align: center;
+}
+#footer-left:hover{
+    border: 1px solid #f5ede0;
+}
+#footer-right{
+    margin-left: 6%;
+    margin-top: 5%;
+    text-align: center;
+    
+}
+footer h2{
+    font-family:  'Dancing Script', sans-serif;
+    color:#d5c3a0 ;
+}
+footer h3{
+    color: rgb(225, 222, 222);
+    font-size: medium;
+}
