@@ -1,6 +1,6 @@
-✨Projects for training ✔✔ :
+✨Projects for training😊✔✔ :
 Practicing and working on mini-projects and exercises can significantly contribute to the improvement of software engineering skills.
-Here are several ways in which such activities can be beneficial:
+Here are several ways in which such activities can be beneficial😎:
 
 Hands-On Experience: Practical projects and exercises provide hands-on experience, allowing software engineers to apply theoretical knowledge in real-world scenarios.
 This experiential learning is invaluable for gaining a deeper understanding of concepts.
@@ -33,5 +33,5 @@ Portfolio Development:
  ✔Bootstrap
  ✔javaScript
  ✔PHP
- SO GUYS JUST INJOY YOUR LEARNING JOURNY WITH EVERYTHING AND TRUST YOUR PROCESS, YOU WILL ACHEIVE SOMTHING ONE DAY -JUST STAY FOCUS KING'S-
+ SO GUYS JUST INJOY YOUR LEARNING JOURNY WITH EVERYTHING AND TRUST YOUR PROCESS, YOU WILL ACHEIVE SOMTHING ONE DAY -JUST STAY FOCUS GUYS😉-
  
